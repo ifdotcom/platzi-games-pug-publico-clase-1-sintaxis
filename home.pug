@@ -1,0 +1,15 @@
+extend components/plantilla.pug
+block contenidos
+	section.second
+			article
+				.second__menu
+					h3= titulos[4]
+					ul
+						each enlace in enlaces
+							li= enlace
+			section.principal
+				div
+					h2= titulos[0]
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perferendis iure voluptatem expedita, quos mollitia beatae. Facilis minima, quia ullam eius sequi reprehenderit sapiente beatae asperiores, architecto tempora explicabo commodi?
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero minus dicta perspiciatis harum autem laboriosam asperiores corporis nobis nulla tempora. Minima consequuntur animi, fuga blanditiis nobis perferendis voluptas? Molestias, facilis?
+					a.boton ver más
